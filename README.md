@@ -20,11 +20,11 @@ Follow the following instructions to install this project: <br> 1. Download Node
 
 ## Features
 
-GIVEN a command-line application that accepts user input
-WHEN I start the application
-THEN I am presented with the following options: view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role
-WHEN I choose to view all departments
-THEN I am presented with a formatted table showing department names and department ids
+GIVEN a command-line application that accepts user input <br>
+WHEN I start the application <br>
+THEN I am presented with the following options: view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role <br>
+WHEN I choose to view all departments <br>
+THEN I am presented with a formatted table showing department names and department ids <br>
 WHEN I choose to view all roles
 THEN I am presented with the job title, role id, the department that role belongs to, and the salary for that role
 WHEN I choose to view all employees
