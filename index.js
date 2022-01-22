@@ -116,3 +116,29 @@ const addDepartment = () =>{
       })
   })
 }
+
+
+
+const addRole = () => {
+  inquirer.prompt([
+      {
+          message: "enter title:",
+          type: "input",
+          name: "title"
+      }, {
+          message: "enter salary:",
+          type: "number",
+          name: "salary"
+      }, {
+          message: "enter department ID:",
+          type: "number",
+          name: "department_id"
+      }
+  ]).then(function (response) {
+      db.query("INSERT INTO roles (title, salary, department_id) values (?, ?, ?)", [response.title, response.salary, response.department_id], function (err, data) {
+          console.table(data);
+      })
+      askQuestions();
+  })
+
+}
