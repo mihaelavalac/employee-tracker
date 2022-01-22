@@ -56,3 +56,17 @@ const askQuestions = () =>  {
       }
   })
 }
+
+const viewEmployees = () => {
+  db.query("SELECT * FROM employee", function (err, data) {
+      console.table(data);
+      askQuestions();
+  })
+}
+
+const viewDepartments = () => {
+  db.query("SELECT * FROM department", function (err, data) {
+      console.table(data);
+      askQuestions();
+  })
+}
