@@ -2,7 +2,8 @@
 
 ## Description
 
-  <p>You can see the project repository [here](https://github.com/mihaelavalac/employee-tracker).</p><br>
+You can see the project repository [here](https://github.com/mihaelavalac/employee-tracker).
+You can see the project video [here](https://youtu.be/JipmOGMN84w).
 
   <p><i>The purpose of this application is to allow business owners to view and manage the departments, roles, and employees in their company. While working on this project I empowered my fresh gathered knowledge of MySQL and  Node.js.</i><p>
 
